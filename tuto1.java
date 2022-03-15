@@ -5,7 +5,7 @@ public class tuto1 {
     System.out.println( addVal( 5, 6 ) );
     System.out.println( minusVal( 5, 6 ) );
     System.out.println( multipleVal( 5, 6 ) );
-    System.out.println( modVal( 5, 6 ) );
+    System.out.println( divVal( 5, 6 ) );
 
 
   }
@@ -22,8 +22,8 @@ public class tuto1 {
     return a * b;
   }
 
-  public static long modVal(long a, long b){
-    return a / b; // 주석
+  public static long divVal(long a, long b){
+    return a / b;
   }
 
 }
