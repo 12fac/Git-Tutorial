@@ -23,7 +23,7 @@ public class tuto1 {
   }
 
   public static long modVal(long a, long b){
-    return a / b;
+    return a / b; // 주석
   }
 
 }
