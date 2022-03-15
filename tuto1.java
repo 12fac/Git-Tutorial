@@ -5,6 +5,7 @@ public class tuto1 {
     System.out.println( addVal( 5, 6 ) );
     System.out.println( minusVal( 5, 6 ) );
     System.out.println( multipleVal( 5, 6 ) );
+    System.out.println( modVal( 5, 6 ) );
 
 
   }
@@ -19,6 +20,10 @@ public class tuto1 {
 
   public static long multipleVal(long a, long b){
     return a * b;
+  }
+
+  public static long modVal(long a, long b){
+    return a / b;
   }
 
 }
